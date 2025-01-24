@@ -17,3 +17,9 @@ prepare_base_model:
 training:
   root_dir: artifacts/training
   trained_model_path: artifacts/training/model.h5
+
+
+evaluation:
+  mlflow_uri: https://dagshub.com/comboonsong/end-to-end-mlops-tutorial.mlflow
+  repo_owner: comboonsong
+  repo_name: end-to-end-mlops-tutorial
